@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 98 128">
+  <defs>
+    <linearGradient id="frame" x2="0" y2="1">
+      <stop stop-color="#94445d"/>
+      <stop offset="1" stop-color="#50304e"/>
+    </linearGradient>
+    <radialGradient id="light">
+      <stop stop-color="#e4a866" stop-opacity=".48"/>
+      <stop offset="1" stop-color="#e4a866" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="98" height="128" fill="url(#frame)"/>
+  <ellipse cx="49" cy="50" rx="46" ry="55" fill="url(#light)"/>
+  <path d="M7 8h84v112H7z" fill="none" stroke="#f4d493" stroke-opacity=".48"/>
+  <g transform="translate(49 47)" fill="#ffc65e">
+    <ellipse cy="-13" rx="5" ry="10"/>
+    <ellipse cy="-13" rx="5" ry="10" transform="rotate(45)"/>
+    <ellipse cy="-13" rx="5" ry="10" transform="rotate(90)"/>
+    <ellipse cy="-13" rx="5" ry="10" transform="rotate(135)"/>
+    <ellipse cy="-13" rx="5" ry="10" transform="rotate(180)"/>
+    <ellipse cy="-13" rx="5" ry="10" transform="rotate(225)"/>
+    <ellipse cy="-13" rx="5" ry="10" transform="rotate(270)"/>
+    <ellipse cy="-13" rx="5" ry="10" transform="rotate(315)"/>
+    <circle r="5" fill="#9b4d34"/>
+  </g>
+  <path d="M29 79q20-22 40 0v9H29z" fill="#e7bc70"/>
+  <text x="49" y="103" fill="#fff0d2" font-family="Georgia,serif" font-size="8" text-anchor="middle">Retrato de</text>
+  <text x="49" y="114" fill="#fff0d2" font-family="Georgia,serif" font-size="10" font-weight="bold" text-anchor="middle">Solita</text>
+</svg>
